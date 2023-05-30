@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/favoritesCatsFragment">
+
+    <fragment
+        android:id="@+id/favoritesCatsFragment"
+        android:name="ru.alinas.cats.ui.favorites.FavoritesCatsFragment"
+        android:label="FavoritesCatsFragment" />
+    <fragment
+        android:id="@+id/randomCatFragment"
+        android:name="ru.alinas.cats.ui.random_cat.RandomCatFragment"
+        android:label="RandomCatFragment" />
+    <fragment
+        android:id="@+id/randomCatGifFragment"
+        android:name="ru.alinas.cats.ui.random_cat_gif.RandomCatGifFragment"
+        android:label="RandomCatGifFragment" />
+</navigation>
